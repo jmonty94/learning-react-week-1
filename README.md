@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 🏗️ Pass Data Using Props
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Before We Begin
 
-## Available Scripts
+Before you begin this activity, complete the following steps:
 
-In the project directory, you can run:
+1. Delete the `/src` folder in [00-practice-app](../00-practice-app/).
 
-### `npm start`
+2. Copy the `/src` folder from [Unsolved](./Unsolved/) and paste it into [00-practice-app](../00-practice-app/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. This project uses Bootstrap, so don't forget to import it inside `index.js`:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  `import 'bootstrap/dist/css/bootstrap.min.css'`
 
-### `npm test`
+## Activity
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Work with a partner to implement the following user story:
 
-### `npm run build`
+* As a developer, I want to render a card by passing props.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acceptance Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The activity is done when it meets the following criteria:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* It's done when I have updated the return method in `src/components/Display.js` to render a card.
 
-### `npm run eject`
+* It's done when I have passed data for the dog's `name`, `description`, and `id` as props to the `Card` component.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* It's done when I have modified to `Card` component to render the `canine` properties.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💡 Hints
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* How can we use the [React Docs on components and props](https://facebook.github.io/react/docs/components-and-props.html) to understand props better?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* What is the term **props** short for?
 
-## Learn More
+## 🏆 Bonus
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you have completed this activity, work through the following challenge with your partner to further your knowledge:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* How could we use the [style tag](https://facebook.github.io/react/docs/dom-elements.html#style) to add additional style to our React components?
 
-### Code Splitting
+Use [Google](https://www.google.com) or another search engine to research this.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
